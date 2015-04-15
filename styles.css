@@ -1,0 +1,259 @@
+/* line 2, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+* {
+  box-sizing: border-box; }
+
+/* line 5, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+p {
+  margin: 0;
+  padding: 0; }
+
+/* line 9, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0; }
+
+/* line 13, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 18, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+.container {
+  max-width: 1600px;
+  margin: auto; }
+
+/* line 23, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+header {
+  height: 745px;
+  background: url(../img/bg.jpg) center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center; }
+  /* line 31, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  header .logo {
+    height: 50px;
+    width: 50px;
+    background: #999;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    top: 55px; }
+  /* line 40, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  header nav {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 72px; }
+    /* line 46, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+    header nav a {
+      text-decoration: none;
+      color: #fff;
+      margin: 0 30px;
+      letter-spacing: 0.05em; }
+  /* line 52, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  header h1 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.05em;
+    margin-bottom: 5px;
+    clear: both;
+    padding-top: 190px; }
+  /* line 63, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  header .subtitle {
+    color: #fff;
+    text-transform: lowercase;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1; }
+  /* line 73, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  header .button {
+    background: #16a085;
+    height: 50px;
+    width: 170px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    margin: auto;
+    padding: 15px; }
+  /* line 85, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  header .social-icons {
+    margin-top: 225px; }
+    /* line 88, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+    header .social-icons img {
+      margin: 0 5px; }
+
+/* line 92, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+.photoapp {
+  background: #f5f6f7;
+  position: relative;
+  height: 500px;
+  overflow: hidden; }
+  /* line 99, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .photoapp .article-1 {
+    width: 440px;
+    position: absolute;
+    top: 100px;
+    left: 20%; }
+  /* line 105, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .photoapp h3 {
+    color: #16a085;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  /* line 110, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .photoapp p {
+    font-size: 13px;
+    line-height: 2;
+    margin-bottom: 40px; }
+  /* line 115, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .photoapp .button {
+    background: #16a085;
+    height: 50px;
+    width: 170px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    padding: 15px; }
+  /* line 126, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .photoapp img {
+    position: absolute;
+    top: 80px;
+    left: 40%; }
+
+/* line 132, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+.specs {
+  background: white;
+  height: 525px;
+  position: relative;
+  overflow: hidden; }
+  /* line 138, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .specs .article-2 {
+    width: 440px;
+    position: absolute;
+    top: 145px;
+    left: 55%; }
+    /* line 144, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+    .specs .article-2 h3 {
+      color: #16a085;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 30px; }
+    /* line 149, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+    .specs .article-2 p {
+      font-size: 13px;
+      line-height: 2;
+      margin-bottom: 40px; }
+  /* line 154, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .specs .button {
+    background: #16a085;
+    height: 50px;
+    width: 170px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    padding: 15px; }
+  /* line 167, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .specs .hand img {
+    position: absolute;
+    top: 130px;
+    left: 20%; }
+  /* line 174, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .specs .slide .nums {
+    font-size: 16px;
+    margin: 20px 0 10px 0; }
+  /* line 178, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .specs .slide .right-arrow {
+    margin-left: 10px; }
+
+/* line 182, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+.community {
+  background: #f5f6f7;
+  height: 400px;
+  position: relative; }
+  /* line 187, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .community .article-3 {
+    width: 200px;
+    position: absolute;
+    top: 135px;
+    left: 20%;
+    text-align: center; }
+    /* line 194, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+    .community .article-3 h3 {
+      color: #16a085;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 30px; }
+    /* line 199, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+    .community .article-3 p {
+      font-size: 13px;
+      line-height: 2;
+      margin-bottom: 40px; }
+  /* line 204, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .community .carousel {
+    float: right;
+    margin-top: 100px;
+    margin-right: 15%;
+    clear: both; }
+    /* line 210, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+    .community .carousel img {
+      width: 350px;
+      padding: 5px; }
+
+/* line 215, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+.subscribe {
+  background: url(../img/sub.jpg) center center;
+  background-size: cover;
+  height: 790px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+  margin-bottom: 5px;
+  clear: both;
+  padding-top: 325px; }
+  /* line 229, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .subscribe h2 {
+    margin-bottom: 20px; }
+  /* line 232, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .subscribe .email {
+    width: 210px;
+    height: 50px;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 95%;
+    color: #444;
+    text-transform: uppercase;
+    letter-spacing: 0.05em; }
+  /* line 245, /Users/davidpastorrey/Desktop/PSD to HTML Practice/First/Project/styles.sass */
+  .subscribe .Log {
+    width: 60px;
+    height: 50px;
+    background: #16a085;
+    margin-bottom: 4%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 95%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em; }
+
+/*# sourceMappingURL=styles.css.map */
